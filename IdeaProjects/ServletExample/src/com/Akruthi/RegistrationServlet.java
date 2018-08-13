@@ -21,6 +21,7 @@ public class RegistrationServlet extends HttpServlet {
         getServletContext().setAttribute("Password",password);
         RequestDispatcher requestDispatcher=req.getRequestDispatcher("/Login.jsp");
         requestDispatcher.include(req,resp);
+        System.out.println("akruthi");
 
 //        if (username.equals("akruthi") && (password.equals("admin"))) {
 //
